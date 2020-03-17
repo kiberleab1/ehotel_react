@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "history": "^4.10.1",
+    "local-storage": "^2.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "3.1.0",
+    "react-scripts": "^3.4.0",
+    "react-semantic-ui-datepickers": "^2.3.0",
+    "react-slideshow-image": "^1.4.0",
+    "semantic-ui-calendar-react": "^0.15.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.85.0"
   },

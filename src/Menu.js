@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container, Image, Menu } from 'semantic-ui-react';
+import {Link} from 'react-router-dom'
+import { Container, Image, Menu, } from 'semantic-ui-react';
 
 export default () => (
   <Menu>
     <Container>
       <Menu.Item as="a" header>
-        <Image
-          size="small"
-          src="https://www.robinwieruch.de/img/page/logo.svg"
-        />
+        <Menu.Item>
+          E-hotel
+        </Menu.Item>
       </Menu.Item>
 
       <Menu.Menu position="right">
@@ -17,7 +17,7 @@ export default () => (
         </Menu.Item>
 
         <Menu.Item as="a" name="register">
-          Register
+          <Link to="/hotels">Register</Link>
         </Menu.Item>
       </Menu.Menu>
     </Container>
